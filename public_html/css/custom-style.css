@@ -10,3 +10,7 @@ div{
 .row{
     border-color:red;
 }
+.list-group-item{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
