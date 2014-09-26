@@ -8,9 +8,18 @@ div{
     margin-top: 35px;
     margin-bottom: 35px;
 }
-body{
-    background-color: crimson;
+.jumbotron{
+    background-image: url(http://www.fubiz.net/wp-content/uploads/2013/02/Mountains-of-Mist171.jpg)
+     
 }
 h1{
-    text-decoration-color: #66afe9;
+    text-decoration-color: #f9f9f9;
 }
+body{
+    background-color:darkslategray;
+}
+#text{
+    color:whitesmoke;
+    font-size: 26px;
+}
+
