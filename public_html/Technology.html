@@ -15,17 +15,24 @@ and open the template in the editor.
     </head>
     <body>
         <div class="container">  
-            <div class="jumbotron">
-  <h1>Technology</h1>              
-        <nav class='list-group'></nav>
-        <a class='list-group-item' href='index.html'>About Me</a>
-        <a class='list-group-item' href='Projects.html'>Projects</a>
-        <a class='list-group-item' href='Technology.html'>Technology</a>        
-            </div>         
-           
+          <div class="jumbotron">
+  <h1 id="tite">Hello, my name is Cristian Robles</h1>              
+        <nav class='list-group'></nav>       
+        <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a class='list-group-item' href='index.html'>About Me</a></li>
+    <li role="presentation"><a class='list-group-item' href='Projects.html'>Projects</a></li>
+    <li role="presentation"><a class='list-group-item' href='Technology.html'>Technology</a></li>
+    <li role="presentation" class="divider"></li>
+  </ul>
+</div>
+</div>                       
             <div class='row'>
                 <div class='col-xs-10'>
-                    <div class='row'>
+                   
                         <div class='col-xs-9'>
                             <article>HTML5 is a core technology markup language of the<br> 
                                 Internet used for structuring and presenting content<br>
@@ -33,10 +40,8 @@ and open the template in the editor.
                         </div>
                               <div class="col-xs-3">
                             <img class="img-responsive" src="http://cdn.web-savvy-marketing.com/wp-content/uploads/2013/10/HTML5-Logo-300x300.png">
-                              </div>                            
-                        
-                    </div>                        
-                    <div class='row'> 
+                              </div>                                          
+                     
                         <div class="col-xs-3">
                             <img class="img-responsive" src="http://logonoid.com/images/css3-logo.png">
                         </div>
@@ -46,9 +51,7 @@ and open the template in the editor.
                                 style element conflict.</article>
                         </div>                                               
                         </div>
-                        <div class='row'>
-              
-                        </div>
+                   
                             <div class='col-xs-9'>
                                 <article>Bootstrap is a popular HTML, CSS,<br>
                                     and JS framework for developing responsive,<br>
@@ -60,6 +63,8 @@ and open the template in the editor.
                         </div>  
                     </div> 
                 </div>
-            </div>
-        </body>
-     </html>
+          
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>        
+     </body>
+  </html>
